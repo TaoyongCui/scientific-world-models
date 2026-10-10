@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taoyongcui.github.io/scientific-world-models/sitemap.xml
