@@ -82,7 +82,9 @@ button { font: inherit; }
 
 .people-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 0; margin: 0 -12px; }
 .person { flex: 0 0 33.333333%; max-width: 33.333333%; padding: 0 20px; text-align: center; margin-bottom: 50px; }
-.person-photo { display: block; width: 160px; height: 160px; margin: 0 auto 15px; border-radius: 50%; object-fit: cover; object-position: center top; }
+.person-photo-link { display: block; width: 160px; height: 160px; margin: 0 auto 15px; border-radius: 50%; overflow: hidden; }
+.person-photo { display: block; width: 160px; height: 160px; margin: 0; border-radius: 50%; object-fit: cover; object-position: center top; }
+.person-photo[src$="taoyong-cui.jpg"] { border-radius: 0; transform: scale(1.4); transform-origin: 50% 12%; }
 .person-photo[src$="hoifung-poon.webp"] { object-position: center 30%; }
 .person h3 { font: 400 19.2px/1.5 "Open Sans", Arial, sans-serif; margin: 0 0 2px; }
 .person h3 a { color: #00356b; }
